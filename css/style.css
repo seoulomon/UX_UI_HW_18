@@ -1,0 +1,141 @@
+
+.myDiv {
+    display: inline-block;
+}
+.phero{
+    position:relative;
+    font-family: 'Alata', sans-serif;
+    font-style:inherit;
+    color:black;
+    top: -60px ;
+    padding: 2px;
+    width: 100%;
+
+}
+nav {
+    width: 800px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    padding: 18px;
+    font-size: 16px;
+    font-family:'Alata', sans-serif;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.hero {
+    display: inline-block;
+    background-color:white;
+    padding: 20px;
+    width: 350px;
+    height: 5px;
+    text-align: left;
+    color: white;
+    padding-right: 100px;
+}
+
+#button1 {
+    position:absolute;
+    filter: drop-shadow(2px 2px);
+    right: 0px;
+    left: 250px;
+    bottom: 350px;
+}
+
+.learnMe {
+    
+font-size: larger;
+   margin: auto;
+}
+
+.heroimg {
+    
+    height: 600px;
+    padding: 15px;
+    
+    
+    
+}
+
+#content {
+    background-color: white;
+    width: 1000px;
+}
+
+.intro {
+    display: inline-block;
+}
+
+footer {
+    background-color: #373738;
+}
+
+footer p {
+    font-family:'Alata', sans-serif;
+    font-size: larger;
+    padding: 20px;
+    
+}
+
+.pFooter {
+    color: white;
+    
+}
+
+/* SECTION - WORK1  */
+
+
+
+.work1 {
+    margin-top: -180px;
+    background-color: aquamarine;    
+    height: 600px;
+    padding:8px;
+}
+
+#w1cont {
+    position: absolute;
+    background-color: aquamarine;
+    width: 1000px;
+}
+
+#button2 {
+    position:absolute;
+    filter: drop-shadow(2px 2px);
+    width: 150px ;
+    left: 950px;
+    bottom: 180px;
+}
+
+.w1 {
+    display: inline-block;
+    
+    padding: 20px;
+    width: 350px;
+    height: 5px;
+    text-align: left;
+    color: white;
+    padding-right: 100px;
+    
+}
+
+.pw1{
+    position:relative;
+    font-family: 'Alata', sans-serif;
+    font-style:inherit;
+    color:black;
+    bottom: 250px;
+    padding: 2px;
+    width: 100%;
+    left: 350px;
+}
+
+.w1 img {
+    margin-left: -100px;
+    border-radius: 25px;
+}
