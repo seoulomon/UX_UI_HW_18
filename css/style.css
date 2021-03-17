@@ -1,17 +1,17 @@
-
 .myDiv {
     display: inline-block;
 }
-.phero{
-    position:relative;
+
+.phero {
+    position: relative;
     font-family: 'Alata', sans-serif;
-    font-style:inherit;
-    color:black;
-    top: -60px ;
+    font-style: inherit;
+    color: black;
+    top: -60px;
     padding: 2px;
     width: 100%;
-
 }
+
 nav {
     width: 800px;
     background-color: white;
@@ -20,7 +20,7 @@ nav {
     text-align: right;
     padding: 18px;
     font-size: 16px;
-    font-family:'Alata', sans-serif;
+    font-family: 'Alata', sans-serif;
 }
 
 li {
@@ -30,7 +30,7 @@ li {
 
 .hero {
     display: inline-block;
-    background-color:white;
+    background-color: white;
     padding: 20px;
     width: 350px;
     height: 5px;
@@ -40,7 +40,7 @@ li {
 }
 
 #button1 {
-    position:absolute;
+    position: absolute;
     filter: drop-shadow(2px 2px);
     right: 0px;
     left: 250px;
@@ -48,15 +48,13 @@ li {
 }
 
 .learnMe {
-    
-font-size: larger;
-   margin: auto;
+    font-size: larger;
+    margin: auto;
 }
 
 .heroimg {
-    
     height: 600px;
-    padding: 15px;    
+    padding: 15px;
 }
 
 #content {
@@ -73,7 +71,7 @@ footer {
 }
 
 footer p {
-    font-family:'Alata', sans-serif;
+    font-family: 'Alata', sans-serif;
     font-size: larger;
     padding: 20px;
 }
@@ -84,24 +82,21 @@ footer p {
 
 /* MY UX SKILLS SECTION using CSS flex */
 
-.mySkills h1{
+.mySkills h1 {
     text-align: center;
-    
-
 }
 
 .flexContainer {
-    display:flex;
-    width:100%;
+    display: flex;
+    width: 100%;
     padding: 10px;
-    
-} 
+}
 
 .userResearch, .userInter, .webDev {
     display: flex;
     height: 450px;
     background-color: grey;
-    padding:15px ;
+    padding: 15px;
     width: 33%;
     text-align: center;
     flex-direction: column;
@@ -109,7 +104,7 @@ footer p {
 }
 
 .flexContainer img {
-    background-color:white;
+    background-color: white;
     height: 200px;
     width: 200px;
     border-radius: 100%;
@@ -117,107 +112,145 @@ footer p {
 
 .flexContainer h3 {
     font-size: 27px;
-    
-}
-    
-.userResearch{
-    margin-left:10px;
 }
 
+.userResearch {
+    margin-left: 10px;
+}
 
-.userInter{
+.userInter {
     margin-left: 100px;
 }
 
-.webDev{
+.webDev {
     margin-left: 100px;
-    margin-right:25px ;
+    margin-right: 25px;
 }
-
-
 
 /* My Work SECTION using CSS grid */
 
-.workGrid {
-    display: grid flex;
-    /* grid-template-columns:50% ; */
-    /* grid-template-areas:
-    "myArea1", "myArea2", "myArea3", "myArea4"; */
+.myWork h1 {
+    text-align: center;
+}
+#myWork {
+    margin:0 auto;
+    padding-top:50px ;
+    padding-bottom: 50px;
+    
+    display: grid;
+    height: 1000px;
+    width: 100%;
+    grid-template-rows: 35% 35% 35%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "work1 work1d" 
+    "work1 work1d"
+    "work3 work3";
+}
+
+#work1 {
+    grid-area: work1;
+    background-image: url(../images/presentation\ hand.jpg);
+}
+
+#work1d {
+    grid-area: work1d;
+    background-color: crimson;
+}
+
+#work3 {
+    grid-area: work3;
+    background-color: darkkhaki;
+}
+
+
+.categoryGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right:0px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+}
+
+#work1dp {
+    text-align: left;
+    height: 450px;
+    padding: 15px;
+    width: 90%;
+    text-align: left;
+}
+
+#myWork h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    
+}
+
+#myWork p4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    
+    font-size: 18px;
+}
+
+
+
+/* #myWork {
+    margin: 0px 5%;
+    display: grid;
+    height: 300px;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "proj1 projDes1 projDes1"
+    "proj2 proj2 proj2" 
+    "proj3 proj3 prog3";
 
 }
 
-.proj1 {
-    /* grid-area: myArea1; */
+#proj1 img {
+    grid-area: proj1;
     background-color:rgb(142, 188, 226);
-    flex-direction: row;
-}
-
-.proj1 img {
-    /* background-color: white ; */
-    height: 500px;
-    width: 500px;
-    padding-top: 80px;
-    
-    
-    
     
 }
 
-.urDescrip1 {
-    height: 180px;
-    width: 380px;
-    display:flex;
-    flex-direction: column;
-    margin-left: 700px;
-  
-    
+#ProjDes1 {
+    grid-area: proj1;
 
 }
 
 
-.proj2 {
-    /* grid-area: myArea2; */
+#proj2 img {
+    grid-area: proj2;
     background: burlywood;
     
 }
 
 .proj3 {
     /* grid-area: myArea3; */
-    background: coral;
+
+/* background: coral;
 }
 
 .myWork h3 {
     background: rgb(170, 177, 190);
-    padding: 25px;
+    padding: 25px; */
     /* grid-area: myArea4; */
-}
+/* } */
 
 
+/* SECTION - WORK1 - old  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* SECTION - WORK1 - old  */ 
-
-
-
-.work1 {
+/* .work1 {
     margin-top: -180px;
-    background-color: aquamarine;    
+    background-color: aquamarine;
     height: 600px;
-    padding:8px;
+    padding: 8px;
 }
 
 #w1cont {
@@ -227,30 +260,28 @@ footer p {
 }
 
 #button2 {
-    position:absolute;
+    position: absolute;
     filter: drop-shadow(2px 2px);
-    width: 150px ;
+    width: 150px;
     left: 950px;
     bottom: 180px;
 }
 
 .w1 {
     display: inline-block;
-    
     padding: 20px;
     width: 350px;
     height: 5px;
     text-align: left;
     color: white;
     padding-right: 100px;
-    
 }
 
-.pw1{
-    position:relative;
+.pw1 {
+    position: relative;
     font-family: 'Alata', sans-serif;
-    font-style:inherit;
-    color:black;
+    font-style: inherit;
+    color: black;
     bottom: 250px;
     padding: 2px;
     width: 100%;
@@ -260,4 +291,4 @@ footer p {
 .w1 img {
     margin-left: -100px;
     border-radius: 25px;
-}
+} */
