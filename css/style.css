@@ -44,7 +44,7 @@ li {
     filter: drop-shadow(2px 2px);
     right: 0px;
     left: 250px;
-    bottom: 350px;
+    bottom: 280px;
 }
 
 .learnMe {
@@ -56,10 +56,7 @@ font-size: larger;
 .heroimg {
     
     height: 600px;
-    padding: 15px;
-    
-    
-    
+    padding: 15px;    
 }
 
 #content {
@@ -79,15 +76,140 @@ footer p {
     font-family:'Alata', sans-serif;
     font-size: larger;
     padding: 20px;
-    
 }
 
 .pFooter {
     color: white;
+}
+
+/* MY UX SKILLS SECTION using CSS flex */
+
+.mySkills h1{
+    text-align: center;
+    
+
+}
+
+.flexContainer {
+    display:flex;
+    width:100%;
+    padding: 10px;
+    
+} 
+
+.userResearch, .userInter, .webDev {
+    display: flex;
+    height: 450px;
+    background-color: grey;
+    padding:15px ;
+    width: 33%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexContainer img {
+    background-color:white;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.flexContainer h3 {
+    font-size: 27px;
+    
+}
+    
+.userResearch{
+    margin-left:10px;
+}
+
+
+.userInter{
+    margin-left: 100px;
+}
+
+.webDev{
+    margin-left: 100px;
+    margin-right:25px ;
+}
+
+
+
+/* My Work SECTION using CSS grid */
+
+.workGrid {
+    display: grid flex;
+    /* grid-template-columns:50% ; */
+    /* grid-template-areas:
+    "myArea1", "myArea2", "myArea3", "myArea4"; */
+
+}
+
+.proj1 {
+    /* grid-area: myArea1; */
+    background-color:rgb(142, 188, 226);
+    flex-direction: row;
+}
+
+.proj1 img {
+    /* background-color: white ; */
+    height: 500px;
+    width: 500px;
+    padding-top: 80px;
+    
+    
+    
     
 }
 
-/* SECTION - WORK1  */
+.urDescrip1 {
+    height: 180px;
+    width: 380px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 700px;
+  
+    
+
+}
+
+
+.proj2 {
+    /* grid-area: myArea2; */
+    background: burlywood;
+    
+}
+
+.proj3 {
+    /* grid-area: myArea3; */
+    background: coral;
+}
+
+.myWork h3 {
+    background: rgb(170, 177, 190);
+    padding: 25px;
+    /* grid-area: myArea4; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECTION - WORK1 - old  */ 
 
 
 
